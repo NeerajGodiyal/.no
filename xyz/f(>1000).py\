@@ -1,10 +1,10 @@
 n=int(input("enter a numbrt greater than 1000:"))
 if n<=1000:
-while n<=1000:
-n=int(input("Error!Enter the value greater than 1000))
+      while n<=1000:
+        n=int(input("Error!Enter the value greater than 1000"))
 nm=0
 while n!=0:
-r=n%10
-nm=nm*10+r
-n=n//10
+     r=n%10
+     nm=nm*10+r
+     n=n//10
 print("Reverse of number:",nm)
